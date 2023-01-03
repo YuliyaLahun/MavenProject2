@@ -31,7 +31,7 @@ public class DbConnector {
     private static Properties getProperties() {
         Properties prop = new Properties();
 
-        try (InputStream input = new FileInputStream("src/test/resources/db.properties")) {
+        try (InputStream input = new FileInputStream("/Users/marat/Documents/Java_AT_Yuliya/db.properties")) {
             prop.load(input);
         } catch (IOException e) {
             e.printStackTrace();
