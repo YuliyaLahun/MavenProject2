@@ -5,3 +5,5 @@ out/
 *.ipr
 *.iws
 /target
+src/test/resources/db.properties
+*/.log
