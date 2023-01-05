@@ -6,4 +6,4 @@ out/
 *.iws
 /target
 src/test/resources/db.properties
-*/.log
+*.log
